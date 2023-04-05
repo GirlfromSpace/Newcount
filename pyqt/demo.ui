@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>853</width>
+    <height>704</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Приложение</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Desktop/Результаты Роскосмоса V/DT05/5-PO-v2/icon.ico</normaloff>../Desktop/Результаты Роскосмоса V/DT05/5-PO-v2/icon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 57 14pt &quot;Akrobat&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QTableView" name="tableView">
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustToContents</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="0">
+       <widget class="QPushButton" name="add_row">
+        <property name="text">
+         <string>Добавить строку</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="del_row">
+        <property name="text">
+         <string>Удалить строку</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>853</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="data">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="save_file"/>
+    <addaction name="save_as"/>
+    <addaction name="report"/>
+    <addaction name="separator"/>
+    <addaction name="jornal"/>
+   </widget>
+   <addaction name="data"/>
+  </widget>
+  <action name="new_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>7273854.png</normaloff>7273854.png</iconset>
+   </property>
+   <property name="text">
+    <string>Добавить строку</string>
+   </property>
+  </action>
+  <action name="delete_2">
+   <property name="icon">
+    <iconset>
+     <normaloff>5001199.png</normaloff>5001199.png</iconset>
+   </property>
+   <property name="text">
+    <string>Удалить строку</string>
+   </property>
+  </action>
+  <action name="save_as">
+   <property name="icon">
+    <iconset>
+     <normaloff>7274161.png</normaloff>7274161.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить как...</string>
+   </property>
+  </action>
+  <action name="report">
+   <property name="icon">
+    <iconset>
+     <normaloff>7274140.png</normaloff>7274140.png</iconset>
+   </property>
+   <property name="text">
+    <string>Выгрузить как отчет</string>
+   </property>
+  </action>
+  <action name="jornal">
+   <property name="icon">
+    <iconset>
+     <normaloff>5082176.png</normaloff>5082176.png</iconset>
+   </property>
+   <property name="text">
+    <string>Журнал изменений</string>
+   </property>
+  </action>
+  <action name="save_file">
+   <property name="icon">
+    <iconset>
+     <normaloff>5078942.png</normaloff>5078942.png</iconset>
+   </property>
+   <property name="text">
+    <string>Сохранить изменения</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

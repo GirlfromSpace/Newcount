@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Edit_df_win</class>
+ <widget class="QMainWindow" name="Edit_df_win">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>711</width>
+    <height>759</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Редактированеие таблицы</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Desktop/Результаты Роскосмоса V/DT05/5-PO-v2/icon.ico</normaloff>../Desktop/Результаты Роскосмоса V/DT05/5-PO-v2/icon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 57 12pt &quot;Akrobat&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0">
+     <layout class="QGridLayout" name="gridLayout" rowstretch="30,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
+      <property name="leftMargin">
+       <number>1</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>20</number>
+      </property>
+      <item row="14" column="2">
+       <widget class="QPushButton" name="save_btn">
+        <property name="text">
+         <string>Добавить</string>
+        </property>
+       </widget>
+      </item>
+      <item row="13" column="2">
+       <widget class="QLineEdit" name="Ixy_Value"/>
+      </item>
+      <item row="12" column="2">
+       <widget class="QLabel" name="label_Ixy">
+        <property name="text">
+         <string>Ixy</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QLineEdit" name="num_Value"/>
+      </item>
+      <item row="11" column="1">
+       <widget class="QLineEdit" name="Iyy_Value"/>
+      </item>
+      <item row="3" column="0" colspan="3">
+       <widget class="Line" name="line">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="0">
+       <widget class="QLabel" name="label_Iyz">
+        <property name="text">
+         <string>Iyz</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" rowspan="3" colspan="3">
+       <widget class="QTableView" name="tableView"/>
+      </item>
+      <item row="7" column="1">
+       <widget class="QLineEdit" name="y_Value"/>
+      </item>
+      <item row="13" column="0">
+       <widget class="QLineEdit" name="Iyz_Value"/>
+      </item>
+      <item row="11" column="0">
+       <widget class="QLineEdit" name="Ixx_Value"/>
+      </item>
+      <item row="11" column="2">
+       <widget class="QLineEdit" name="Izz_Value"/>
+      </item>
+      <item row="7" column="2">
+       <widget class="QLineEdit" name="z_Value"/>
+      </item>
+      <item row="6" column="1">
+       <widget class="QLabel" name="label_y">
+        <property name="text">
+         <string>Y, м</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="2">
+       <widget class="QLabel" name="label_z">
+        <property name="text">
+         <string>Z, м</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QLabel" name="label_Iyy">
+        <property name="text">
+         <string>Iyy</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="2">
+       <widget class="QLabel" name="label_Izz">
+        <property name="text">
+         <string>Izz</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="1">
+       <widget class="QLabel" name="label_Izx">
+        <property name="text">
+         <string>Izx</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLineEdit" name="name_Value">
+        <property name="maxLength">
+         <number>30</number>
+        </property>
+        <property name="frame">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLineEdit" name="mass_Value"/>
+      </item>
+      <item row="13" column="1">
+       <widget class="QLineEdit" name="Izx_Value"/>
+      </item>
+      <item row="7" column="0">
+       <widget class="QLineEdit" name="x_Value"/>
+      </item>
+      <item row="6" column="0">
+       <widget class="QLabel" name="label_x">
+        <property name="text">
+         <string>X, м</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="label_num">
+        <property name="text">
+         <string>Кол-во</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="label_mass">
+        <property name="text">
+         <string>Масса, кг </string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QLabel" name="label_Ixx">
+        <property name="text">
+         <string>Ixx</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_name">
+        <property name="text">
+         <string>Наименование</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
